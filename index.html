@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>The Wumpus</title>
+    <style>
+      body {
+        overflow: hidden;
+        margin: 0px;
+        animation-name: color;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+      }
+      img {
+        width: 50vw;
+        display: block;
+        top: 10vh;
+        left: 25vw;
+        position: absolute;
+      }
+      @keyframes color {
+        0% {
+          background-color: #09a1fc;
+        }
+        25% {
+          background-color: #336b39;
+        }
+        50% {
+          background-color: #c66312;
+        }
+        75% {
+          background-color: #c63939;
+        }
+        100% {
+          background-color: #09a1fc;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <img src="wumpus.png">
+    <audio src="audio.mp3" autoplay loop></audio>
+  </body>
+</html>
